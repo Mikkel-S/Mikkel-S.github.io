@@ -1,3 +1,4 @@
 function putElement() {
-  alert("Yes, you clicked the button!");
+  document.getElementById("output_paragraph").innerHTML =
+    "Yes, you clicked the button!";
 }
